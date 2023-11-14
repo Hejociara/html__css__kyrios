@@ -1,0 +1,42 @@
+
+.portfolio2{
+  text-align: center;
+  align-items: center;
+  height: 70vh;;
+}
+.portfolio__fundo2{
+  background-image: url('../../img/fundoSection2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  object-fit: contain;
+}
+.portfolio__titulo2{
+  letter-spacing: 2px;
+  color: var(--branco);
+  font-family: var(--titulo);
+  font-size: 36px;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  padding-top: 400px;
+  padding-right: 413px;
+  text-decoration: 5px underline var(--laranja);
+}
+.portfolio__conteudo{
+    padding-top:30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 27px;
+}
+.porfolio__imagem{
+    width: 322px;
+    height: 537px;
+    top: 1141px;
+    left: 37px;
+    border-radius: 15px;
+ }

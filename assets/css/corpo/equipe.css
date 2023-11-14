@@ -1,0 +1,60 @@
+
+.equipe{
+    padding-top: 350px;
+    text-align: center;
+    align-items: center;
+
+}
+.equipe__fundo{
+    background-image: url('../../img/fundo3.svg');
+    height: 200vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1050px;
+    top: 2913px;
+    left: 3px;
+
+}
+.equipe__titulo{
+    display: flex;
+    padding-top: 200px;
+    padding-left: 130px;
+    color: var(--branco);
+    font-family: var(--titulo);
+    text-decoration: 5px underline var(--laranja);
+}
+.equipe__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 46px;
+}
+.equipe__texto{
+    margin-top: 130px;
+    font-family: var(--texto);
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.equipe__botao{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--texto);
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: var(--laranja);
+    border-radius: 35px;
+    border: 1px solid var(--laranja);
+    padding: 20px 100px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
