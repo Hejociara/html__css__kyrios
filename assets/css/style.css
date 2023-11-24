@@ -18,3 +18,72 @@
     --titulo: 'Gugi', sans-serif;
     --texto: 'Nunito Sans', sans-serif;
 }
+
+.container{
+    height: 85vh;
+    width: 100%;
+}
+.fonte__menu{
+    font-family: var(--texto);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--branco);
+}
+.fonte__texto__principal1{
+    font-family: var(--texto);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.fonte__titulo__principal{
+    font-family: var(--titulo);
+    color: var(--branco);
+    font-size: 50px;
+}
+
+.fonte__texto__principal2{
+    font-family: var(--texto);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.fonte__texto{
+    font-family: var(--texto);
+    font-size: 18px;
+    color: var(--branco);
+}
+
+.align__flex__direction{
+    display: flex;
+}
+.align__center{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.align__center__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section__title{
+    font-size: 36px;
+    font-family: var(--titulo);
+    line-height: 1.8;
+}
+.margin__left{
+    margin-left: 60px;
+}
+.white__color{
+    color: var(--branco);
+}
+.bold__text{
+    font-family: var(--texto);
+    font-size: 25px;
+    font-weight: 800;
+}

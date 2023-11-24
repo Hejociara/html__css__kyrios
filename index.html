@@ -4,78 +4,132 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Crie o seu site com segurança e com profissionais que entendem a alma do seu negócio"> 
+  <meta name="description" content="Descrição para o google">
   <link rel="shortcut icon" href="./assets/img/logoFav.svg" type="image/x-icon">
   
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
-  <link rel="stylesheet" href="./assets/css/corpo3.css">
-  <link rel="stylesheet" href="./assets/css/cabecalho/portfolio.css">
+  <link rel="stylesheet" href="./assets/css/corpo/sobre.css">
+  <link rel="stylesheet" href="./assets/css/corpo/portfolio.css">
   <link rel="stylesheet" href="./assets/css/corpo/corpo.css">
   <link rel="stylesheet" href="./assets/css/corpo/equipe.css">
   <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+  <link rel="stylesheet" href="./assets/Js/index.js">
   <title>Kyrios Websites</title>
 </head>
 <body>
-  <header class="cabecalho">
+  <header class="cabecalho container">
     <section class="cabecalho__menu">
       <div class="menu">
-        <div class="menu__fundo">
           <img class="menu__logo" src="./assets/img/logo.svg">
           <nav class="menu__nav">
-            <ul class="menu__lista">
-              <li class="menu__item"><a class="menu__link">Início</a></li>   
-              <li class="menu__item"><a class="menu__link">Sobre Nós</a></li>
-              <li class="menu__item"><a class="menu__link">Portfólio</a></li>
-              <li class="menu__item"><a class="menu__link">Serviços</a></li>
-            <li class="menu__item"><a class="menu__link">Equipe</a></li>
-            <li class="menu__item"><a class="menu__link contato">Contato</a></li>      
+            <ul class="menu__lista align__flex__direction ">
+              <li class="menu__item"><a class="menu__link fonte__texto">Início</a></li>   
+              <li class="menu__item"><a class="menu__link fonte__texto " href="#sobre">Sobre Nós</a></li>
+              <li class="menu__item "><a class="menu__link fonte__texto" href="#portfolio">Portfólio</a></li>
+              <li class="menu__item"><a class="menu__link fonte__texto" href="#servicos">Serviços</a></li>
+            <li class="menu__item"><a class="menu__link fonte__texto" href="#equipe">Equipe</a></li>
+            <li class="menu__item">
+              <a class="menu__link contato" href="https://api.whatsapp.com/send?phone=559192370445" target="_blank">Contato</a>
+            </li>        
             </ul>
           </nav>
         </div>
       </div>
-      <div class="cabecalho__texto__centro">
-      <h2 class="cabecalho__texto">BEM-VINDO(A)</h2>
-      <h1 class="cabecalho__titulo">Kyrios Websites</h1>
-      <h2 class="cabecalho__texto">Venha dar asas ao seu site com uma equipe de profissionais dedicados que cuidarão de todos os detalhes para que você possa alavancar ainda mais o seu negócio.</h2>
+      <div class="cabecalho__texto__centro align__center">
+      <h2 class="cabecalho__texto fonte__texto__principal1">BEM-VINDO(A)</h2>
+      <h1 class="cabecalho__titulo fonte__titulo__principal">Kyrios Websites</h1>
+      <h2 class="cabecalho__texto fonte__texto__principal2">Venha dar asas ao seu site com uma equipe de profissionais dedicados que cuidarão de todos os detalhes para que você possa alavancar ainda mais o seu negócio.</h2>
       </div>
     </section>
   </header>
-  <main class="corpo">
-    <section class="corpo__corpo">
-      <h2 class="corpo__titulo">Sobre Nós</h2>
-      <div class="corpo__conteudo">
-        <p class="corpo__texto">Somos uma equipe de profissionais
-           dedicados e apaixonados, prontos para oferecer soluções de
-            qualidade, mesmo sendo novos no mercado. A nossa abordagem 
-            fresca e inovadora nos permite criar sites profissionais que se destacam, com um toque contemporâneo. Estamos ansiosos para embarcar nessa jornada com você e mostrar como a nossa paixão pelo que fazemos pode beneficiar o seu negócio. Entre em contato conosco e vamos crescer juntos no mundo digital.</p>
-        <div class="corpo__image"></div>  
-    </div>
-    </section>
-    <section class="portfolio2">
-    <div class="portfolio__fundo2">
-      <h2 class="portfolio__titulo2">Portfolio</h2>
-      <div class="portfolio__conteudo">
-        <img class="porfolio__imagem" src="./assets/img/Portfólio1.png">
-        <img class="porfolio__imagem" src="./assets/img/Portfolio2.png">
-        <img class="porfolio__imagem" src="./assets/img/Portfólio3.png">
-        <img class="porfolio__imagem" src="./assets/img/Portfólio4.png">
-        </div>   
-    </section>
-    <section class="equipe">
-      <div class="equipe__fundo">
-        <h2 class="equipe__titulo">Equipe</h2>
-        <div class="equipe__conteudo">
-          <img class="equipe__imagem" src="./assets/img/hejociara.svg">
-          <img class="equipe__imagem" src="./assets/img/AndersonC.svg">
-          <img class="equipe__imagem" src="./assets/img/AndersonD.svg">
+  <main class="main">
+    <section class="main__sobre container" id="sobre">
+        <h2 class="sobre__titulo section__title margin__left">Sobre Nós</h2>
+        <div class="sobre__conteudo align__flex__direction">
+          <p class="sobre__texto margin__left fonte__texto__principal1">Desenvolvemos sites que transcendem expectativas. Desde o início, trilhamos o caminho do sucesso digital ao lado de nossos clientes. Nosso compromisso é oferecer uma tecnologia essencial, criando sites dinâmicos e adaptáveis à constante evolução da era digital.
+          <br><br>
+          Não apenas criamos sites; construímos experiências interativas e dinâmicas. Integrando botões diretos para WhatsApp e e-mail, compartilhando conteúdo envolvente e facilitando a gestão com integração do conteúdo, proporcionamos funcionalidades que fazem a diferença.
+          <br><br>  
+          Compreender suas necessidades é a nossa missão. Oferecemos atendimento personalizado e humanizado em diversas plataformas, garantindo agilidade e precisão no atendimento. Sua satisfação é nossa prioridade, e estamos prontos para ser a solução que você busca.
+          </p>
+          <div class="sobre__image"></div>
         </div>
+    </section>
+    <section id="portfolio">
+      <div class="portfolio__image">
+          <h2 class="portfolio__title section__title align__flex__direction">Portfólio
+          </h2>
+          <div class="slideshow__container">
+              <div class="mySlides fade">
+                  <a href="https://www.figma.com/proto/x8KiNTwyMjn0cR4Q8QaMMD/JosyFlix?type=design&node-id=1-4&t=dCAXx7XHQNU76XiW-0&scaling=scale-down&page-id=0%3A1"><img src="./assets/img/portfolio1.png" style="width:100%"></a>
+              </div>
+              <div class="mySlides fade">
+                  <a href="https://josydovaleidiomas.com"><img src="./assets/img/Portfolio2.png" style="width:100%">
+                    </a>
+              </div>
+              <div class="mySlides fade">
+                  <a href="https://www.figma.com/proto/jr5PjACr7BIJbplWLvX4Zp/Flor-Bella?node-id=6-22"><img src="./assets/img/Portfólio3.png" style="width:100%">
+                    </a>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
       </div>
-      <p class="equipe__texto">Faça agora o seu melhor orçamento!<br>
-        Simples e rápido!</p>
-      <a class="equipe__botao">Orçamento agora mesmo!</a>
-    </section>    
+      <br>
+      <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span> 
+      </div>
+  </div>
+    </section>
   </main>
-  <footer class="rodape">@ Kyrios Websites - Todos os direitos reservados</footer>
+  <section id="equipe" class="equipe container2 equipe__fundo">
+    <h2 class="equipe__titulo section__title white__color margin__left">Equipe</h2>
+    <div class="equipe__conteudo align__center__center">
+    <img class="equipe__imagem" src="./assets/img/hejociara.svg">
+    <img class="equipe__imagem" src="./assets/img/AndersonC.svg">
+    <img class="equipe__imagem" src="./assets/img/AndersonD.svg">
+    </div>
+  </section>
+  <div class="align__center__center align__center">
+    <p class="equipe__texto bold__text">Faça agora o seu orçamento!<br>
+      Simples e rápido!</p>
+    <a class="botao__orcamento bold__text white__color">Orçamento agora mesmo!</a>
+  </div>
+  </main>
+  
+  <footer class="rodape align__center__center white__color">@ Kyrios Websites - Todos os direitos reservados</footer> 
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
 </body>
 </html>

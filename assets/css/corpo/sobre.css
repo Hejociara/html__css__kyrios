@@ -1,0 +1,22 @@
+.main__sobre{
+    height: 100vh;
+}
+.sobre__conteudo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: left;
+    gap: 41px;
+    align-items: center;
+}
+.sobre__texto{
+    font-family: var(--texto);
+    text-align: justify;
+}
+.sobre__image{
+    background-image: url('../../img/computer.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 350px;
+    padding-right: 0;
+}
